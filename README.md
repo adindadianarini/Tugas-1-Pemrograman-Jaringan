@@ -13,5 +13,7 @@ Output:
 ===== HASIL DETEKSI =====
 
 IP Address : 142.250.204.78
+
 Kelas IP   : Kelas B
+
 IP Biner   : 10001110.11111010.11001100.01001110
