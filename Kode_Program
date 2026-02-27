@@ -49,9 +49,9 @@ public class DeteksiIP {
         else if (firstOctet >= 192 && firstOctet <= 223)
             return "Kelas C";
         else if (firstOctet >= 224 && firstOctet <= 239)
-            return "Kelas D (Multicast)";
+            return "Kelas D ";
         else if (firstOctet >= 240 && firstOctet <= 255)
-            return "Kelas E (Eksperimental)";
+            return "Kelas E";
         else
             return "Tidak diketahui";
     }
