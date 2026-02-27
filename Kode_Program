@@ -42,8 +42,6 @@ public class DeteksiIP {
 
         if (firstOctet >= 1 && firstOctet <= 126)
             return "Kelas A";
-        else if (firstOctet == 127)
-            return "Loopback (Khusus)";
         else if (firstOctet >= 128 && firstOctet <= 191)
             return "Kelas B";
         else if (firstOctet >= 192 && firstOctet <= 223)
